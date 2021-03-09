@@ -6,7 +6,7 @@ def canUnlockAll(boxes):
     Args:
         boxes (list[list]): boxes is the list of box that contains keys
     Returns:
-        (bool): True if we can open all the boxes, otherwise return False
+        (bool):True if we can open all the boxes, otherwise return False
     """
     final = [0]
     for i, box in enumerate(boxes):
