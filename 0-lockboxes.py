@@ -1,10 +1,8 @@
 #usr/bin/env python3
 
+""" first locking boxes"""
 def canUnlockAll(boxes):
 
-
-    if boxes[0] == [] or not isinstance(boxes,list):
-        return False
     final = [0]
     for i, box in enumerate(boxes):
         for key in box:
